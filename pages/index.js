@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { colorLink } from '../styles/colors.module.scss';
+import { IoPlanet, IoRocketSharp } from 'react-icons/io5';
+import { colorLink, colorIcon } from '../styles/colors.module.scss';
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -19,6 +20,11 @@ export default function Home() {
 
         <p className={styles.description}>
           Link color is <span style={{ color: colorLink }}>{colorLink}</span>
+        </p>
+
+        <p className={styles.description} style={{ fontSize: '4em', marginBottom: 0}}>
+          <IoRocketSharp color={colorIcon} />
+          <IoPlanet color={colorIcon} />
         </p>
 
         <div className={styles.grid}>
