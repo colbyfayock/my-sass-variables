@@ -2,6 +2,8 @@
 
 Demo for tutorial [How to Export Sass Variables to JavaScript with Next.js](https://www.youtube.com/watch?v=r2YIfBvq11A)
 
+🚀 See Demo: https://my-sass-variables.netlify.app/
+
 📝 Article: https://spacejelly.dev/posts/how-to-export-sass-variables-to-javascript-with-next-js/
 
 📺 YouTube: https://www.youtube.com/watch?v=r2YIfBvq11A
